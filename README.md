@@ -13,5 +13,7 @@ Tecnologias Usadas
 [![My Skills](https://skillicons.dev/icons?i=javascript,html,css,)](https://skillicons.dev)
 
 # Visualizacion del proyecto
+# [Ver Proyecto](https://estebanpajarodev.github.io/LoginRegister.github.io/)
+
 
 [![Captura-de-pantalla-2024-09-13-184511.png](https://i.postimg.cc/x1gqRd3j/Captura-de-pantalla-2024-09-13-184511.png)](https://postimg.cc/k26nMqHL)
