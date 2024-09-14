@@ -1,5 +1,5 @@
 /* estilos para el formulario    */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
 
 * {
   margin: 0;
@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 .container {
@@ -19,7 +20,7 @@ body {
   padding: 1%;
   margin-top: 1%;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 20px 2px rgba(1, 46, 6, 0.555);
   width: 40%;
   margin: 2% auto;
 }
@@ -73,4 +74,48 @@ button:hover {
   margin-top: 2%;
   font-size: 1.2rem;
   text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+  body {
+    flex-direction: column;
+  }
+  .container {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .container {
+    width: 80%;
+  }
+  @media screen and (max-width: 380px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    .container {
+      width: 85%;
+    }
+    .form-group {
+      margin-bottom: 1%;
+    }
+    .form-group label {
+      font-size: 1.2rem;
+    }
+    button {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      margin: 2% auto;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    h1 {
+      font-size: 1.3rem;
+    }
+
+    .container {
+      width: 90%;
+      margin-bottom: 5%;
+    }
+  }
 }
